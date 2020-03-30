@@ -1,0 +1,143 @@
+/***** BASE STYLES *****/
+body {
+    color: black;
+    font-family: 'Source sans pro', sans-serif;
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 375px;
+    float: left;
+}
+
+
+/***** HEADER *****/
+header {
+    height: 110px;
+    margin: 0 auto;
+    
+}
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+    padding: 38px 0;
+    font-weight: 700;
+}
+header h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;
+    padding: 46px 0 46px 0;
+    word-spacing: 30px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color:  #77a466;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+/***** welcome *****/
+#beans {
+    color: #77a466;
+    border-top: 3px solid ;
+    border-bottom: 3px solid;
+}
+section img {
+    margin-left: 40px;
+}
+#welcome {
+    font-size: 18px;
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+#about {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    border-bottom: #dedbdc solid 1px;
+    margin-bottom: 0px;
+}
+/***** INFORMATION *****/
+.third-width {
+    padding: 10px;
+}
+#today {
+    float: left;
+    margin-left: -10px;
+
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+#speacials {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #77a466;
+    list-style: none;
+    float: left;
+    margin-left: -40px;
+}
+#reviews {
+    border-left: #dedbdc solid 1px;
+    border-right: #dedbdc solid 1px;
+    float: left;
+}
+#review {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+}
+#contact {
+    float: right;
+}
+footer {
+    border-top: #dedbdc solid 1px;
+    text-transform: uppercase;
+    clear: both;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 23px;
+}
+@font-face {
+    font-family: 'wisdom_scriptregular';
+    src: url('../fonts/wisdom_script_aj-webfont.woff2') format('woff2'),
+         url('../fonts/wisdom_script_aj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+footer h3 span {
+    color: #77a466;
+    font-family: 'wisdom_scriptregular';
+    font-weight: normal;
+    font-style: normal;
+    text-transform: lowercase;
+
+}
